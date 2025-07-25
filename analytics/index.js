@@ -3,7 +3,7 @@ require('firebase/auth');
 require('firebase/database');
 
 var config = {
-  apiKey: "AIzaSyDhicO25co-cxuhvOzDang4Ws_-lZFa_dU",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "interactive-analytics-cfc22.firebaseapp.com",
   databaseURL: "https://interactive-analytics-cfc22-kde.firebaseio.com/",
   projectId: "interactive-analytics-cfc22",
